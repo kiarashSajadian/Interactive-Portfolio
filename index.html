@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- responisve meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a xsxshref="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- hero section -->
+    <section id="about" class="about">
+      <article>
+        <div class="title">
+          <h3>
+            Kiarash Sajadian<span
+              ><img src="./img/Profile-Pic-400px.jpg" alt=""
+            /></span>
+          </h3>
+          <h1><span>FrontEnd</span> Developer</h1>
+        </div>
+        <div class="description">
+          <p>
+            A front-end developer creates websites and applications using web
+            languages such as HTML, CSS, and JavaScript that allow users to
+            access and interact with the site or app. When you visit a website,
+            the design elements you see were created by a front-end developer.
+          </p>
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+
+          <dotlottie-player
+            src="https://lottie.host/1d77d1f7-b997-46d3-a839-68ec8534c765/HMMzZ1sct3.json"
+            background="transparent"
+            speed=".5"
+            style="width: 250px; height: 250px"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </article>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- HTML section -->
+    <section id="services" class="services services-html sticky">
+      <article>
+        <figure>
+          <img src="./img/diamond.png" alt="blue flat diamond" width="500px" />
+        </figure>
+        <div class="text">
+          <h2>HTML</h2>
+          <p>
+            HTML is the standard markup language for creating Web pages. HTML
+            describes the structure of a Web page. HTML consists of a series of
+            elements. HTML elements tell the browser how to display the content.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/HTML">More about HTML</a>
+        </div>
+      </article>
+    </section>
+    <!-- end of HTML section -->
+
+    <!-- CSS section -->
+    <section class="services services-css sticky">
+      <article>
+        <figure>
+          <img
+            src="./img/triangle.png"
+            alt="light green flat octagon"
+            width="200px"
+          />
+        </figure>
+        <div class="text">
+          <h2>CSS</h2>
+          <p>
+            CSS is the acronym of “Cascading Style Sheets”. CSS is a computer
+            language for laying out and structuring web pages (HTML or XML).
+            This language contains coding elements and is composed of these
+            “cascading style sheets” which are equally called CSS files (. css).
+          </p>
+          <a href="https://en.wikipedia.org/wiki/CSS">More about CSS</a>
+        </div>
+      </article>
+    </section>
+    <!-- end of CSS -->
+
+    <!-- JS section -->
+    <section class="services services-js sticky">
+      <article>
+        <figure>
+          <img
+            src="./img/octagon.png"
+            alt="flat purple triangle"
+            width="200px"
+          />
+        </figure>
+        <div class="text">
+          <h2>JS</h2>
+          <p>
+            JavaScript is a scripting language used to create and control
+            dynamic website content, i.e. anything that moves, refreshes, or
+            otherwise changes on your screen without requiring you to manually
+            reload a web page.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/JavaScript">More about JS</a>
+        </div>
+      </article>
+    </section>
+    <!-- end of JS section -->
+
+    <!-- contact section -->
+    <section id="contact" class="full-screen">
+      <a href="mailto:hi@lumanastudio.com">hi@lumanastudio.com</a>
+    </section>
+    <!-- end of contact section -->
+    <script src="./index.js"></script>
+  </body>
+</html>
